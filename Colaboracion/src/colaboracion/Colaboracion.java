@@ -8,10 +8,13 @@ import javax.swing.JOptionPane;
  */
 
 public class Colaboracion {
-
+    
     public static void main(String[] args) {
-    int x = Integer.parseInt(JOptionPane.showInputDialog("Introduce un numero: "));
-    int y = Integer.parseInt(JOptionPane.showInputDialog("Introduce el segundo numero: "));
+        
+        Validar obx1 = new Validar();
+        
+    int x = obx1.setX();
+    int y = obx1.setY();
     
     JOptionPane.showMessageDialog(null, "La suma de ambos numeros es: " + (x + y));
     }
