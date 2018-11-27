@@ -18,5 +18,7 @@ public class Colaboracion {
     
     JOptionPane.showMessageDialog(null, "La suma de ambos numeros es: " + (x + y));
     }
+    //Commit nuevo
     
+    //Commit
 }
